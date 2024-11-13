@@ -1,0 +1,109 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+
+    background-image: url(images/imagemdefundo.jpg);
+    background-size: auto;
+}
+
+.navegacao ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navegacao li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+h1, h3 {
+    color: rgb(241, 241, 241);
+}
+
+.center img {
+    max-width: 100px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#notificacao {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+footer p, footer a {
+    color: #333;
+    margin: 10px 0;
+}
+
+footer img {
+    width: 30px;
+}
+
+.text_apresentacao{
+    text-decoration: none;
+    color: white    ;
+    font-weight: bold;
+}
+
+a.agendamento {
+    color: #ecebe9; /* Altere para uma cor contrastante */
+    font-size: 1.2em; /* Aumenta o tamanho do link */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.agendamento:hover {
+    background-color: #2159b9; /* Muda a cor ao passar o mouse */
+    color: #000; /* Contraste com o fundo ao passar o mouse */
+}
+
+a.instagram {
+    color: #ecebe9; /* Altere para uma cor contrastante */
+    font-size: 1.2em; /* Aumenta o tamanho do link */
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a.instagram:hover {
+    background-color: #2159b9; /* Muda a cor ao passar o mouse */
+    color: #000; /* Contraste com o fundo ao passar o mouse */
+}
